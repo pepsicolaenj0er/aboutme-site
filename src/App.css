@@ -1,0 +1,125 @@
+body{
+  background: #141414 url("/public/light_noise.png");
+  background-size: 200px;
+}
+.lico{
+width: 155px;
+height: 165px;
+border-radius: 100%
+}
+.header{
+position:absolute ;
+color: wheat;
+top: 150px; ;
+}
+
+.biography{
+position: absolute;
+left: 950px;
+top: 10px;
+font-size: 30px;
+font-family: 'Sora';
+font-style: normal;
+color: wheat;
+width: 505px;
+height: 165px;
+}
+.Services{
+position: absolute;
+right:1150px;
+font-size: 50px;
+width: 300px;
+}
+.Frontend{
+font-size: 28px;
+background-color: #1e1e1e;
+width: 600px;
+height: 250px;
+padding: 42px;
+border-radius: 10px;
+}
+.Backend{
+font-size: 28px;
+background-color: #1e1e1e;
+width: 600px;
+height: 250px;
+padding: 42px;
+border-radius: 10px;
+}
+.Technologies{
+position: absolute;
+left: 750px;
+top: 157px;
+font-size: 28px;
+background-color: #1e1e1e;
+width: 600px;
+height: 250px;
+padding: 42px;
+border-radius: 10px;
+}
+.Other{
+position: absolute;
+left: 750px;
+top: 520px;
+font-size: 28px;
+background-color: #1e1e1e;
+width: 600px;
+height: 250px;
+padding: 42px;
+border-radius: 10px;
+}
+.Footer{
+position: absolute;
+top: 1000px;
+left: 670px;
+font-size: 14px;
+color: gray;
+white-space: nowrap;
+}
+.mail-btn {
+  position: absolute;
+  right: 1340px;
+  top: 280px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e3e3e;
+  color: rgb(247, 232, 203);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.mail-btn:focus {
+  outline: none;
+}
+.mail-btn:hover {
+  background-color: #191919;
+}
+
+.tgicon{
+position: absolute;
+right: 1420px;
+top: 350px;
+height: 30px;
+width: 30px;
+transition:opacity 0.3s ease;
+}
+.tgicon:hover{
+opacity: 0.5;
+}
+
+.giticon{
+position: absolute;
+right: 1370px;
+top: 350px;
+height: 30px;
+width: 30px;
+transition:opacity 0.3s ease;
+}
+
+.giticon:hover{
+opacity: 0.5;
+}
