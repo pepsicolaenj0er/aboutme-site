@@ -33,21 +33,38 @@ width: 300px;
 
 }
 .Frontend{
-font-size: 28px;
+position: absolute;
+left: 25px;
+top: 107px;
+font-size: 26px;
 background-color: #1e1e1e;
 width: 600px;
 height: 250px;
-padding: 40px;
+padding: 18px;
 border-radius: 10px;
+transition: transform 0.2 ease;
+display: inline-block;
+}
+.Frontend:hover{
+transform: scale(1.1);
 }
 .Backend{
+position: absolute;
+left: 25px;
+top: 457px;
 font-size: 28px;
 background-color: #1e1e1e;
 width: 600px;
 height: 250px;
-padding: 40px;
+padding: 18px;
 border-radius: 10px;
+transition: transform 0.2 ease;
+display: inline-block;
 }
+.Backend:hover{
+transform: scale(1.1);
+}
+
 .Technologies{
 position: absolute;
 left: 750px;
@@ -56,9 +73,15 @@ font-size: 28px;
 background-color: #1e1e1e;
 width: 600px;
 height: 250px;
-padding: 40px;
+padding: 18px;
 border-radius: 10px;
+transition: transform 0.2 ease;
+display: inline-block;
 }
+.Technologies:hover{
+transform: scale(1.1);
+}
+
 .Other{
 position: absolute;
 left: 750px;
@@ -67,8 +90,13 @@ font-size: 28px;
 background-color: #1e1e1e;
 width: 600px;
 height: 250px;
-padding: 40px;
+padding: 18px;
 border-radius: 10px;
+transition: transform 0.2 ease;
+display: inline-block;
+}
+.Other:hover{
+transform: scale(1.1);
 }
 .Footer{
 position: absolute;
