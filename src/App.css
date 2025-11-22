@@ -1,6 +1,7 @@
-body{
-  background: #141414 url("/public/light_noise.png");
-  background-size: 200px;
+body{ 
+background: #111; 
+background-size: 200px;
+position: relative;
 }
 .lico{
 width: 155px;
@@ -27,39 +28,49 @@ height: 165px;
 }
 .Services{
 position: absolute;
-right:1100px;
+right: 1050px;
 font-size: 36px;
 width: 300px;
 
 }
 .Frontend{
 position: absolute;
-left: 25px;
-top: 107px;
+right: -260px;
+top: 125px;
 font-size: 26px;
 background-color: #1e1e1e;
-width: 600px;
-height: 250px;
-padding: 18px;
+width: 550px;
+height: 220px;
+padding: 10px;
 border-radius: 10px;
-transition: transform 0.2 ease;
+transition: transform 0.3s ease-in-out;
 display: inline-block;
+}
+.Frontend li{
+margin-left: 30px;
+line-height: 1;
+font-size: 22px;
 }
 .Frontend:hover{
 transform: scale(1.1);
 }
 .Backend{
 position: absolute;
-left: 25px;
+right: -260px;
 top: 457px;
 font-size: 28px;
 background-color: #1e1e1e;
-width: 600px;
-height: 250px;
-padding: 18px;
+width: 550px;
+height: 220px;
+padding: 10px;
 border-radius: 10px;
-transition: transform 0.2 ease;
+transition: transform 0.3s ease-in-out;
 display: inline-block;
+}
+.Backend li{
+margin-left: 30px;
+line-height: 1;
+font-size: 22px; 
 }
 .Backend:hover{
 transform: scale(1.1);
@@ -68,15 +79,20 @@ transform: scale(1.1);
 .Technologies{
 position: absolute;
 left: 750px;
-top: 107px;
+top: 125px;
 font-size: 28px;
 background-color: #1e1e1e;
-width: 600px;
-height: 250px;
-padding: 18px;
+width: 550px;
+height: 220px;
+padding: 10px;
 border-radius: 10px;
-transition: transform 0.2 ease;
+transition: transform 0.3s ease-in-out;
 display: inline-block;
+}
+.Technologies li{
+margin-left: 30px;
+line-height: 1;
+font-size: 22px; 
 }
 .Technologies:hover{
 transform: scale(1.1);
@@ -85,23 +101,29 @@ transform: scale(1.1);
 .Other{
 position: absolute;
 left: 750px;
-top: 460px;
-font-size: 28px;
+top: 457px;
+font-size: 30px;
 background-color: #1e1e1e;
-width: 600px;
-height: 250px;
-padding: 18px;
+width: 550px;
+height: 220px;
+padding: 10px;
 border-radius: 10px;
-transition: transform 0.2 ease;
+transition: transform 0.3s ease-in-out;
 display: inline-block;
+}
+.Other li {
+margin-left: 30px;
+line-height: 1;
+font-size: 22px;
 }
 .Other:hover{
 transform: scale(1.1);
 }
+
 .Footer{
 position: absolute;
-top: 1000px;
-left: 670px;
+top: 900px;
+left: 640px;
 font-size: 14px;
 color: gray;
 white-space: nowrap;
@@ -114,7 +136,7 @@ white-space: nowrap;
   text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3e3e3e;
+  background-color: #2c2b2b;
   color: rgb(247, 232, 203);
   border-radius: 8px;
   font-size: 18px;
