@@ -3,6 +3,18 @@ background: #111;
 background-size: 200px;
 position: relative;
 }
+.component {
+  width: 50%;
+  font-size: 16px;
+}
+
+/* Стили для экранов шириной < 768px */
+@media (max-width: 768px) {
+  .component {
+    width: 100%;
+    font-size: 14px;
+  }
+}
 .lico{
 width: 155px;
 height: 165px;
